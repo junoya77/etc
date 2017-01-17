@@ -65,4 +65,16 @@ $ ssh krypton2@krypton.labs.overthewire.org
 $ (echo -e "{wechall credential}"; cat) | nc 176.28.31.8 4141
 ```
 
+###level 2 -> level 3
+```
+$ cd /krypton/krypton3/
+$ cat README
+...
+$ cat krypton4
+KSVVW BGSJD SVSIS VXBMN YQUUK BNWCU ANMJS 
+$ cat HINT1
+Some letters are more prevalent in English than others.
+$ cat HINT2
+"Frequency Analysis" is your friend.
+```
 
