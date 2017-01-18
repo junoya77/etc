@@ -26,7 +26,7 @@ $ ssh krypton2@krypton.labs.overthewire.org
 $ (echo -e "{wechall credential}"; cat) | nc 176.28.31.8 4141
 ```
 
-###level 1 -> level 2
+###level 1 -> level 2 ; [TODO]
 ```
 $ cd /krypton/krypton2/
 
