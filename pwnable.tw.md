@@ -24,15 +24,11 @@ old_esp
 0x804809d(=*_exit) <- esp
 old_esp 
 ```
-0x0804806e  push 0x3a465443
-
-0x08048073  push 0x20656874
-
-0x08048078  push 0x20747261
-
-0x0804807d  push 0x74732073
-
-0x08048082  push 0x2774654c
+######0x0804806e  push 0x3a465443
+######0x08048073  push 0x20656874
+######0x08048078  push 0x20747261
+######0x0804807d  push 0x74732073
+######0x08048082  push 0x2774654c
 ```
 [eax] = 0
 [ebx] = 0
@@ -48,7 +44,7 @@ old_esp
 0x804809d(=*_exit) 
 old_esp 
 ```
-0x08048087  mov ecx, esp
+######0x08048087  mov ecx, esp
 ```
 [eax] = 0
 [ebx] = 0
@@ -64,11 +60,9 @@ old_esp
 0x804809d(=*_exit) 
 old_esp 
 ```
-0x08048089  mov dl, 0x14
-
-0x0804808b  mov bl, 0x1
-
-0x0804808d  mov al, 0x4
+######0x08048089  mov dl, 0x14
+######0x0804808b  mov bl, 0x1
+######0x0804808d  mov al, 0x4
 ```
 [eax] = 0x4
 [ebx] = 0x1
@@ -85,3 +79,4 @@ old_esp
 old_esp 
 ```
 [linux system call](http://syscalls.kernelgrok.com/)
+######sys_write : eax=0x4, ebx=unsigned int fd, ecx=const char *buf, edx=size_t count
