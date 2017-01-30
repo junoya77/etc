@@ -13,7 +13,9 @@ old_esp
 0x08048066  xor eax, eax
 
 0x08048068  xor ebx, ebx
+
 0x0804806a  xor ecx, ecx
+
 0x0804806c  xor edx, edx
 ```
 [eax] = 0
@@ -26,9 +28,13 @@ old_esp
 old_esp 
 ```
 0x0804806e  push 0x3a465443
+
 0x08048073  push 0x20656874
+
 0x08048078  push 0x20747261
+
 0x0804807d  push 0x74732073
+
 0x08048082  push 0x2774654c
 ```
 [eax] = 0
@@ -62,7 +68,9 @@ old_esp
 old_esp 
 ```
 0x08048089  mov dl, 0x14
+
 0x0804808b  mov bl, 0x1
+
 0x0804808d  mov al, 0x4
 ```
 [eax] = 0x4
