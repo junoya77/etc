@@ -1,22 +1,19 @@
 #Start
-0x08048060  push esp            
+######0x08048060  push esp            
 ```
 [stack]
 old_esp <- esp
 ```
-0x08048061  push 0x804809d      
+######0x08048061  push 0x804809d      
 ```
 [stack]
 0x804809d(=*_exit) <- esp    
 old_esp 
 ```
-0x08048066  xor eax, eax
-
-0x08048068  xor ebx, ebx
-
-0x0804806a  xor ecx, ecx
-
-0x0804806c  xor edx, edx
+######0x08048066  xor eax, eax
+######0x08048068  xor ebx, ebx
+######0x0804806a  xor ecx, ecx
+######0x0804806c  xor edx, edx
 ```
 [eax] = 0
 [ebx] = 0
