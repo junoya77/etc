@@ -11,6 +11,7 @@ old_esp <- esp
 old_esp 
 ```
 0x08048066  xor eax, eax
+
 0x08048068  xor ebx, ebx
 0x0804806a  xor ecx, ecx
 0x0804806c  xor edx, edx
