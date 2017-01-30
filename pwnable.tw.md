@@ -87,4 +87,4 @@ old_esp
 0x804809d(=*_exit) 
 old_esp 
 ```
-
+[linux system call](http://syscalls.kernelgrok.com/)
